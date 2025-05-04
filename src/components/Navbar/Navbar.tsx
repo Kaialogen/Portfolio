@@ -1,4 +1,5 @@
 import React from 'react'
+import Copyright from './Copyright'
 
 const Navbar: React.FC = () => {
     return (
@@ -6,6 +7,7 @@ const Navbar: React.FC = () => {
         <div>
         </div>
         <div>
+            <Copyright />
         </div>
       </nav>
     )
