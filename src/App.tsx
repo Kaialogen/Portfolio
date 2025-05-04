@@ -1,11 +1,15 @@
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
+import Layout from './components/Layout/Layout';
 
 function App() {
 
   return (
     <>
-      <Navbar />
+      <div className="flex">
+          <Navbar />
+          <Layout />
+        </div>
     </>
   )
 }
