@@ -34,26 +34,21 @@ const Skills = () => {
       <h1 className="text-2xl font-bold text-zinc-100">Skills</h1>
       
       <div className="mt-4">
-        <ul className="mt-2 space-y-2 text-zinc-400">
-          <li>React</li>
-          <li>JavaScript</li>
-          <li>TypeScript</li>
-          <li>Tailwind CSS</li>
-          <li>Git</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Node.js</li>
-        </ul>
+        <p className="mt-4 text-zinc-400 text-center">I am proficient in JavaScript and TypeScript, with a strong focus on React and Tailwind CSS. I also have experience with Git for version control and Node.js for backend development.</p>
+        <br />
+        <p className="mt-4 text-zinc-400 text-center">My current tech stack: React, JavaScript, TypeScript, Tailwind CSS, Git, HTML, CSS, Node.js</p>
       </div>
-
+      <br />
+      <br />
+      <br />
       <div className="mt-6 flex justify-center items-center">
-        <div className="relative flex justify-between items-center w-36">
+        <div className="flex items-center justify-between w-72">
           {/* Left icon */}
-          <div className="absolute left-0">{displayedIcons[0]}</div>
+          <div className="w-12">{displayedIcons[0]}</div>
           {/* Center icon */}
-          <div className="relative">{displayedIcons[1]}</div>
+          <div className="w-12">{displayedIcons[1]}</div>
           {/* Right icon */}
-          <div className="absolute right-0">{displayedIcons[2]}</div>
+          <div className="w-12">{displayedIcons[2]}</div>
         </div>
       </div>
     </section>
