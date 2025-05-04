@@ -3,7 +3,7 @@ import Copyright from './Copyright'
 import Clock from './Clock'
 import Avatar from './Avatar'
 import List from './List'
-import ThemeToggle from './ThemeToggle'
+
 
 const Navbar: React.FC = () => {
     return (
@@ -13,7 +13,6 @@ const Navbar: React.FC = () => {
             <List />
         </div>
         <div>
-            <ThemeToggle />
             <Clock />
             <Copyright />
         </div>

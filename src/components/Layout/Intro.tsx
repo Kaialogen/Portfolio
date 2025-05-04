@@ -1,7 +1,11 @@
 const Intro = () => (
     <section className="p-6 rounded-2xl bg-zinc-800 shadow-md h-full">
-      <h1 className="text-2xl font-bold">Intro</h1>
-      <p className="mt-2 text-zinc-400">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id similique necessitatibus voluptates enim, itaque obcaecati sint minima excepturi laudantium? Corporis nihil similique animi incidunt pariatur. Ipsa ipsum facilis minus molestias?</p>
+      <h1 className="text-2xl font-bold">Introduction</h1>
+      <p className="text-zinc-300 mb-4">
+          <span className="block mb-1">Front-End Developer | Cybersecurity Enthusiast</span>
+          I specialise in crafting secure, accessible, and performant web apps using JavaScript, React, and Tailwind CSS.
+          My background in cybersecurity gives me a security-first mindset when building interfaces.
+        </p>
     </section>
   )
   
