@@ -3,7 +3,7 @@ const Experience = () => (
       <h1 className="text-2xl font-bold">Experience</h1>
       <div className="mt-4">
         <p className="mt-4 text-left font-bold">Summer Internship at Forvis Mazars LLP</p>
-        <p className="mt-4 text-zinc-400 text-left">June 2023 - August 2023</p>
+        <p className="mt-4 text-zinc-400 text-left">July 2023 - August 2023</p>
         <p className="mt-4 text-zinc-400 text-left">Internship in cyber attack and defence. Focused on projects including c2 infrastructure, malware EDR evasion techniques and IoT penetration testing.</p>
       </div>
     </section>
