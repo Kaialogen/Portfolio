@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaReact, FaJsSquare, FaGitAlt, FaHtml5, FaCss3Alt, FaNodeJs } from "react-icons/fa";
+import { SiTypescript, SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -12,6 +13,8 @@ const Skills = () => {
     <FaHtml5 key="html" className="w-12 h-12 text-zinc-400" />,
     <FaCss3Alt key="css" className="w-12 h-12 text-zinc-400" />,
     <FaNodeJs key="node" className="w-12 h-12 text-zinc-400" />,
+    <SiTypescript key="typescript" className="w-12 h-12 text-zinc-400" />,
+    <SiTailwindcss key="tailwind" className="w-12 h-12 text-zinc-400" />,
   ];
 
   // Change the current icon every 6 seconds
