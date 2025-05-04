@@ -1,5 +1,6 @@
 import React from 'react'
 import Copyright from './Copyright'
+import Clock from './Clock'
 
 const Navbar: React.FC = () => {
     return (
@@ -7,6 +8,7 @@ const Navbar: React.FC = () => {
         <div>
         </div>
         <div>
+            <Clock />
             <Copyright />
         </div>
       </nav>
