@@ -1,4 +1,4 @@
-import ProfileImage from './assets/Profile.png';
+import ProfileImage from './assets/Profile.PNG';
 
 const Avatar = () => (
     <div className="mb-6">
