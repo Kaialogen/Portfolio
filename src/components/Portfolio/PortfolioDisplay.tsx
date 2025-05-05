@@ -13,7 +13,7 @@ const PortfolioDisplay = ({ currentIndex}: Props) => {
         <h2 className="text-2xl font-bold">{project.title}</h2>
   
         {/* Image Carousel */}
-        <div className="relative w-full h-64 bg-zinc-700 rounded-lg flex items-center justify-center">
+        <div className="relative w-full h-256 bg-zinc-700 rounded-lg flex items-center justify-center">
           <button className="absolute left-4 text-white">{'<'}</button>
           <img
             src={project.images[currentIndex]}
