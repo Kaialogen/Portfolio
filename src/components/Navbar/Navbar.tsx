@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Copyright from './Copyright';
 import Clock from './Clock';
@@ -12,7 +13,9 @@ const Navbar: React.FC = () => {
     <>
       {/* Top bar for mobile */}
       <div className='md:hidden w-full bg-zinc-900 text-white flex justify-between items-center px-4 py-3 shadow'>
-        <div className='text-lg font-semibold'>Kai Constantine</div>
+        <Link className='text-lg font-semibold' to='/'>
+          Kai Constantine
+        </Link>
         <button onClick={() => setIsOpen(!isOpen)} aria-label='Toggle Menu'>
           {isOpen ? <FaTimes className='w-6 h-6 text-white' /> : <FaBars className='w-6 h-6' />}
         </button>

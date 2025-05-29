@@ -8,7 +8,7 @@ const List = ({ onLinkClick }: { onLinkClick: () => void }) => {
   ];
 
   return (
-    <ul className='space-y-3 text-center md:text-left text-zinc-300'>
+    <ul className='space-y-3 text-center text-zinc-300'>
       {links.map((link) => (
         <li key={link.to}>
           <Link to={link.to} onClick={onLinkClick} className='hover:text-white transition'>

@@ -8,7 +8,7 @@ const PortfolioPage = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   return (
-    <div className='min-h-screen flex flex-col md:flex-row bg-zinc-950 text-zinc-100'>
+    <div className='min-h-screen flex flex-col md:flex-row bg-zinc-200 text-zinc-100'>
       {/* Navbar: responsive vertical (md+) or top bar (mobile) */}
       <Navbar />
 
