@@ -1,13 +1,23 @@
-import { Link } from "react-router-dom"
+import { Link } from 'react-router-dom';
 
-const List = () => {
+const List = ({ onLinkClick }: { onLinkClick: () => void }) => {
+  const links = [
+    { name: 'Home', to: '/' },
+    { name: 'Portfolio', to: '/portfolio' },
+    { name: 'Blog', to: '/blog' },
+  ];
+
   return (
-    <ul className="space-y-3 text-zinc-300 text-center">
-    <li><Link to="/" className="hover:text-white cursor-pointer transition">Home</Link></li>
-    <li><Link to="/portfolio" className="hover:text-white cursor-pointer transition">Portfolio</Link></li>
-    <li><Link to="/blog" className="hover:text-white cursor-pointer transition">Blog</Link></li>
-  </ul>
-  )
-}
-  
-  export default List
+    <ul className='space-y-3 text-center md:text-left text-zinc-300'>
+      {links.map((link) => (
+        <li key={link.to}>
+          <Link to={link.to} onClick={onLinkClick} className='hover:text-white transition'>
+            {link.name}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  );
+};
+
+export default List;
