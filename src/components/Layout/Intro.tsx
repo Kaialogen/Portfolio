@@ -1,6 +1,8 @@
+import WelcomeText from '../WelcomeText/WelcomeText';
+
 const Intro = () => (
   <section className='p-6 rounded-2xl bg-zinc-800 shadow-md h-full'>
-    <h1 className='text-2xl font-bold'>Introduction</h1>
+    <WelcomeText />
     <p className='text-zinc-400 mb-4'>
       <br />
       <span className='block mb-1 text-zinc-300'>Full Stack Developer | Cybersecurity Enthusiast</span>
