@@ -25,5 +25,5 @@ export default function WelcomeText() {
   // Get the current translation based on the index
   const currentTranslation = translations[currentIndex];
 
-  return <h1 className='text-3xl font-bold'>👋 {currentTranslation}</h1>;
+  return <h1 className='text-6xl text-WhiteChalk text-center'>👋 {currentTranslation}</h1>;
 }

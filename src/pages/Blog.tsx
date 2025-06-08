@@ -2,7 +2,7 @@ import Navbar from '../components/Navbar/Navbar';
 
 export default function Blog() {
   return (
-    <div className='min-h-screen flex flex-col md:flex-row bg-zinc-200 text-zinc-100'>
+    <div className='min-h-screen flex flex-col bg-zinc-200 text-zinc-100'>
       {/* Navbar: responsive vertical (md+) or top bar (mobile) */}
       <Navbar />
 

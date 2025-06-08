@@ -11,9 +11,9 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      {/* Top bar for mobile */}
-      <div className='md:hidden w-full bg-zinc-900 text-white flex justify-between items-center px-4 py-3 shadow'>
-        <Link className='text-lg font-semibold' to='/'>
+      {/* Top bar for all screen sizes */}
+      <div className='w-full bg-Cosmic-Black text-WhiteChalk flex justify-between items-center px-4 py-3 shadow z-10'>
+        <Link className='text-2xl font-semibold' to='/'>
           Kai Constantine
         </Link>
         <button onClick={() => setIsOpen(!isOpen)} aria-label='Toggle Menu'>
@@ -21,17 +21,21 @@ const Navbar: React.FC = () => {
         </button>
       </div>
 
-      {/* Sidebar for desktop */}
+      {/* Dropdown menu for all screen sizes */}
       <nav
         className={`
-          flex-col bg-zinc-900 text-white px-4 py-6 transition-all
-          ${isOpen ? 'flex' : 'hidden'}
-          md:flex md:w-64 md:min-h-screen md:static absolute w-full z-10
-        `}
+        flex-col bg-zinc-900 text-white px-4 py-6 transition-all
+        ${isOpen ? 'flex' : 'hidden'}
+        absolute w-full z-10
+      `}
       >
-        <div className='flex flex-col gap-4'>
+        {/* Close icon in top right */}
+        <button onClick={() => setIsOpen(false)} aria-label='Close Menu' className='absolute top-4 right-4'>
+          <FaTimes className='w-6 h-6 text-white' />
+        </button>
+        <div className='flex flex-col gap-4 mt-8'>
           <Avatar />
-          <List onLinkClick={() => setIsOpen(false)} />
+          <List onLinkClick={() => setIsOpen(true)} />
         </div>
         <div className='mt-auto pt-6'>
           <Clock />

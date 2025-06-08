@@ -1,1 +1,21 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@theme {
+  --color-Cosmic-Black: #0a0d0f;
+  --color-WhiteChalk: #f6f4f1;
+  --color-TomatoCurry: #e84a2e;
+  --color-PrairieLand: #e2cc9c;
+  --color-CelestialCanvas: #0a2538;
+  --color-SilverHaze: #e2e4e7;
+
+  --animate-slide-left-infinite: slide-left-infinite 40s linear infinite;
+
+  @keyframes slide-left-infinite {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}
