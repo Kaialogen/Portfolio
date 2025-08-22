@@ -1,5 +1,4 @@
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { FaSquareXTwitter } from 'react-icons/fa6';
 
 const Contact = () => (
   <section className='p-6 rounded-2xl bg-Cosmic-Black shadow-md h-full'>
@@ -24,14 +23,6 @@ const Contact = () => (
         >
           <FaGithub className='w-12 h-12 text-WhiteChalk mt-4' />
           GitHub
-        </a>
-        <a
-          href='https://twitter.com/Kaialogen'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='flex flex-col items-center text-zinc-300 hover:text-zinc-100'
-        >
-          <FaSquareXTwitter className='w-12 h-12 text-WhiteChalk mt-4' />X
         </a>
       </div>
     </div>
