@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Copyright from './Copyright';
-import Clock from './Clock';
 import Avatar from './Avatar';
 import List from './List';
 
@@ -36,10 +34,6 @@ const Navbar: React.FC = () => {
         <div className='flex flex-col gap-4 mt-8'>
           <Avatar />
           <List onLinkClick={() => setIsOpen(true)} />
-        </div>
-        <div className='mt-auto pt-6'>
-          <Clock />
-          <Copyright />
         </div>
       </nav>
     </>

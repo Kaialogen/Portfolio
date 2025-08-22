@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar/Navbar';
 import Layout from './components/Layout/Layout';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <main className='flex-1 p-4'>
         <Layout />
       </main>
+      <Footer />
     </div>
   );
 }
