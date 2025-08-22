@@ -2,7 +2,7 @@ import Intro from './Intro';
 import Experience from './Experience';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
-import Avatar from '../Navbar/Avatar';
+import Avatar from './Avatar';
 import { InfiniteCarousel } from './InfiniteCarousel';
 
 const Layout = () => {
