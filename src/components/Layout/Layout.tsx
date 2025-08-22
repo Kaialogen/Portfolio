@@ -2,12 +2,24 @@ import Intro from './Intro';
 import Experience from './Experience';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
+import Avatar from '../Navbar/Avatar';
+import { InfiniteCarousel } from './InfiniteCarousel';
 
 const Layout = () => {
   return (
-    <main className='grid grid-cols-1 md:grid-cols-2 gap-4 p-4 text-white min-h-screen flex-1 overflow-y-auto auto-rows-min'>
+    <main className='grid grid-cols-1 md:grid-cols-2 gap-4 p-4 text-white min-h-screen flex-1 overflow-y-auto auto-rows-min max-w-7xl mx-auto'>
       <div className='col-span-1 md:col-span-2'>
-        <Intro />
+        <div className='grid grid-cols-1 sm:grid-cols-2 items-start gap-6'>
+          <div className='flex justify-center'>
+            <Avatar />
+          </div>
+          <div className='flex flex-col justify-start'>
+            <Intro />
+          </div>
+        </div>
+      </div>
+      <div className='col-span-1 md:col-span-2'>
+        <InfiniteCarousel />
       </div>
       <div className='col-span-1 md:col-span-2'>
         <Portfolio />

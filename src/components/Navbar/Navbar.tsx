@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Avatar from './Avatar';
 import List from './List';
 
 const Navbar: React.FC = () => {
@@ -32,7 +31,6 @@ const Navbar: React.FC = () => {
           <FaTimes className='w-6 h-6 text-white' />
         </button>
         <div className='flex flex-col gap-4 mt-8'>
-          <Avatar />
           <List onLinkClick={() => setIsOpen(true)} />
         </div>
       </nav>
