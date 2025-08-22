@@ -7,7 +7,7 @@ const Contact = () => (
     <div className='mt-6 flex justify-center items-center'>
       <div className='flex items-center justify-between w-72'>
         <a
-          href='https://www.linkedin.com/in/kai-constantine-834952197/'
+          href='https://www.linkedin.com/in/kai-constantine'
           target='_blank'
           rel='noopener noreferrer'
           className='flex flex-col items-center text-zinc-300 hover:text-zinc-100'

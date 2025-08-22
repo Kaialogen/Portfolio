@@ -29,21 +29,6 @@ const Experience = () => (
     </div>
     <br />
     <br />
-    <div className='flex flex-col w-full gap-14'>
-      <div className='flex w-full gap-10'>
-        <div className='flex flex-col'>
-          <p className='text-WhiteChalk text-lg font-semibold'>Cyber Security Software Engineer</p>
-          <p className='text-WhiteChalk opacity-50'>Civil Service</p>
-          <p className='text-WhiteChalk whitespace-nowrap opacity-50 mb-4'>November 2024 - April 2025</p>
-          <p className='text-WhiteChalk'>
-            Developed secure software solutions using C and Python in a high-assurance environment.
-          </p>
-          <p className='text-WhiteChalk'>Focused on secure coding practices and vulnerability mitigation.</p>
-        </div>
-      </div>
-    </div>
-    <br />
-    <br />
   </section>
 );
 
