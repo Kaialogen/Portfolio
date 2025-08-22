@@ -6,15 +6,12 @@ const Intro = () => (
       <WelcomeText />
     </section>
     <span className='text-WhiteChalk text-center text-xl'>
-      Full Stack Developer | Cybersecurity Enthusiast | Based in the UK
+      Backend-leaning Full-Stack Developer | Security-Minded Engineer | Based in the UK
     </span>
     <p className='text-WhiteChalk text-sm md:text-lg text-center'>
-      Hey, I'm Kai, a dedicated Cyber Security graduate and full-stack developer who thrives on building and shipping
-      solutions that truly matter. I work primarily with React.js, JavaScript, Node.js, and TypeScript to craft robust
-      applications on both the frontend and backend.
-      <br />
-      <br />I specialise in crafting secure, accessible, and performant web apps. My background in cybersecurity gives
-      me a security-first mindset when building interfaces.
+      Hi, I’m Kai — a Cyber Security graduate turned full-stack web developer. I build fast, secure, and scalable
+      applications with a backend focus, combining a JavaScript/TypeScript frontend skillset with Python (FastAPI) on
+      the backend.
     </p>
   </div>
 );

@@ -4,6 +4,7 @@ import Contact from './Contact';
 import Portfolio from './Portfolio';
 import Avatar from './Avatar';
 import { InfiniteCarousel } from './InfiniteCarousel';
+import Text from './Text';
 
 const Layout = () => {
   return (
@@ -20,6 +21,9 @@ const Layout = () => {
       </div>
       <div className='col-span-1 md:col-span-2'>
         <InfiniteCarousel />
+      </div>
+      <div className='col-span-1 md:col-span-2'>
+        <Text />
       </div>
       <div className='col-span-1 md:col-span-2'>
         <Portfolio />
