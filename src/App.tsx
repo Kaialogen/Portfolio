@@ -1,17 +1,18 @@
-import Navbar from './components/Navbar';
-import Layout from './pages/HomePage';
-import Footer from './components/Footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import MainLayout from './MainLayout';
+import HomePage from './pages/HomePage';
+import BlogPage from './pages/BlogPage';
 
-function App() {
+export default function App() {
   return (
-    <div className='min-h-screen flex flex-col bg-Cosmic-Black'>
-      <Navbar />
-      <main className='flex-1 p-4'>
-        <Layout />
-      </main>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<MainLayout />}>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/blog' element={<BlogPage />} />
+          <Route path='*' element={<HomePage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
