@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 const Contact = () => (
   <section className='p-6 rounded-2xl bg-Cosmic-Black shadow-md h-full'>
     <h1 className='text-3xl font-bold text-WhiteChalk text-center'>Contact</h1>
-    <hr className='my-4 border-t-2 border-WhiteChalk opacity-40' />
+    <br />
     <div className='mt-6 flex justify-center items-center'>
       <div className='flex items-center justify-between w-72'>
         <a

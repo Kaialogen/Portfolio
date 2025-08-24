@@ -3,7 +3,6 @@ export default function Portfolio() {
     <section className='p-6 rounded-2xl bg-Cosmic-Black shadow-md h-full'>
       <h1 className='text-3xl font-bold text-WhiteChalk text-center'>Portfolio</h1>
       <br />
-      <br />
       <div className='w-full grid grid-cols-2 gap-8 max-md:grid-cols-1'>
         <div className='rounded-lg w-full border p-5 flex flex-col gap-5 border-WhiteChalk/40'>
           <div className='w-full h-40 mb-4 rounded-lg overflow-hidden'>

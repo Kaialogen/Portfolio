@@ -1,34 +1,43 @@
+import { Briefcase, GraduationCap } from 'lucide-react';
+
 const Experience = () => (
-  <section className='p-6 rounded-2xl bg-Cosmic-Black shadow-md h-full'>
-    <h1 className='text-3xl font-bold text-WhiteChalk text-center'>Work Experience</h1>
-    <br />
-    <div className='flex flex-col w-full gap-14'>
-      <div className='flex w-full gap-10'>
-        <div className='flex flex-col'>
-          <p className='text-WhiteChalk text-lg font-semibold'>Summer Internship</p>
-          <p className='text-WhiteChalk opacity-50'>Forvis Mazars LLP</p>
-          <p className='text-WhiteChalk whitespace-nowrap opacity-50 mb-4'>July 2023 - August 2023</p>
-          <p className='text-WhiteChalk'>
-            Internship in cyber attack and defence. Focused on projects including c2 infrastructure, malware EDR evasion
-            techniques and IoT penetration testing.
+  <section className='p-8 rounded-2xl bg-Cosmic-Black shadow-lg h-full'>
+    <h1 className='text-3xl font-bold text-WhiteChalk text-center mb-10'>Work Experience</h1>
+
+    <div className='relative border-l border-zinc-700 pl-8 space-y-12'>
+      <div className='relative'>
+        <span className='absolute -left-4 top-1 w-8 h-8 rounded-full bg-zinc-800 flex items-center justify-center border border-zinc-600 shadow-md'>
+          <Briefcase className='w-4 h-4 text-blue-400' />
+        </span>
+
+        <div className='bg-zinc-900/60 rounded-xl p-6 shadow-sm hover:shadow-md transition'>
+          <p className='text-xl font-semibold text-WhiteChalk'>Summer Internship</p>
+          <p className='text-sm text-zinc-400'>Forvis Mazars LLP</p>
+          <p className='text-sm text-zinc-500 mb-4'>July 2023 – August 2023</p>
+          <p className='text-zinc-300 leading-relaxed'>
+            Internship in cyber attack and defence. Focused on projects including C2 infrastructure, malware EDR evasion
+            techniques, and IoT penetration testing.
+          </p>
+        </div>
+      </div>
+
+      <div className='relative'>
+        <span className='absolute -left-4 top-1 w-8 h-8 rounded-full bg-zinc-800 flex items-center justify-center border border-zinc-600 shadow-md'>
+          <GraduationCap className='w-4 h-4 text-green-400' />
+        </span>
+
+        <div className='bg-zinc-900/60 rounded-xl p-6 shadow-sm hover:shadow-md transition'>
+          <p className='text-xl font-semibold text-WhiteChalk'>Cyber Security Graduate</p>
+          <p className='text-sm text-zinc-400'>University of Warwick</p>
+          <p className='text-sm text-zinc-500 mb-4'>October 2021 – July 2024</p>
+          <p className='text-zinc-300 leading-relaxed'>
+            Graduated with Upper Second Class Honours. Focused on the intersection of software engineering and security,
+            with modules in Data Structures & Algorithms, Secure Systems Implementation, and Networks & Cyber Defence.
+            Gained experience applying secure coding practices to web applications, APIs, and backend architectures.
           </p>
         </div>
       </div>
     </div>
-    <br />
-    <br />
-    <div className='flex flex-col w-full gap-14'>
-      <div className='flex w-full gap-10'>
-        <div className='flex flex-col'>
-          <p className='text-WhiteChalk text-lg font-semibold'>Cyber Security Graduate</p>
-          <p className='text-WhiteChalk opacity-50'>University of Warwick</p>
-          <p className='text-WhiteChalk whitespace-nowrap opacity-50 mb-4'>October 2021 - July 2024</p>
-          <p className='text-WhiteChalk'>Graduated in Cyber Security from the University of Warwick.</p>
-        </div>
-      </div>
-    </div>
-    <br />
-    <br />
   </section>
 );
 
