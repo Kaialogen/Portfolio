@@ -1,10 +1,10 @@
-import Intro from './Intro';
-import Experience from './Experience';
-import Contact from './Contact';
-import Portfolio from './Portfolio';
-import Avatar from './Avatar';
-import { InfiniteCarousel } from './InfiniteCarousel';
-import Text from './Text';
+import Intro from '../components/Intro';
+import Experience from '../components/Experience';
+import Contact from '../components/Contact';
+import Portfolio from '../components/Portfolio';
+import Avatar from '../components/Avatar';
+import { InfiniteCarousel } from '../components/InfiniteCarousel';
+import Text from '../components/Text';
 
 const Layout = () => {
   return (

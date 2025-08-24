@@ -1,4 +1,4 @@
-import WelcomeText from '../WelcomeText/WelcomeText';
+import WelcomeText from './WelcomeText';
 
 const Intro = () => (
   <div className='flex flex-col gap-4'>
