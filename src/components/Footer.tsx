@@ -19,9 +19,11 @@ export default function Footer() {
   return (
     <footer className='backdrop-blur-md bg-white/5 border-t border-white/10 shadow-lg'>
       <div className='max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-300'>
-        <div>© {new Date().getFullYear()} Kai Constantine. All rights reserved.</div>
+        <div className='text-center lg:text-left'>
+          © {new Date().getFullYear()} Kai Constantine. All rights reserved.
+        </div>
         <div className='text-center'>Built with React, TypeScript, and Tailwind CSS. Designed by Kai Constantine.</div>
-        <div className='text-right'>{gmtTime} UK Local Time</div>
+        <div className='text-center lg:text-right'>{gmtTime} UK Local Time</div>
       </div>
     </footer>
   );

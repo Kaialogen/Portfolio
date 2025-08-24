@@ -6,11 +6,11 @@ const Experience = () => (
 
     <div className='relative border-l border-zinc-700 pl-8 space-y-12'>
       <div className='relative'>
-        <span className='absolute -left-4 top-1 w-8 h-8 rounded-full bg-zinc-800 flex items-center justify-center border border-zinc-600 shadow-md'>
+        <span className='absolute -left-4 top-1 w-8 h-8 rounded-full bg-zinc-800 flex items-center justify-center border border-zinc-600 shadow-md z-10'>
           <Briefcase className='w-4 h-4 text-blue-400' />
         </span>
 
-        <div className='bg-zinc-900/60 rounded-xl p-6 shadow-sm hover:shadow-md transition'>
+        <div className='backdrop-blur-md bg-white/5 border-t border-white/10 shadow-sm rounded-xl p-6'>
           <p className='text-xl font-semibold text-WhiteChalk'>Summer Internship</p>
           <p className='text-sm text-zinc-400'>Forvis Mazars LLP</p>
           <p className='text-sm text-zinc-500 mb-4'>July 2023 – August 2023</p>
@@ -22,11 +22,11 @@ const Experience = () => (
       </div>
 
       <div className='relative'>
-        <span className='absolute -left-4 top-1 w-8 h-8 rounded-full bg-zinc-800 flex items-center justify-center border border-zinc-600 shadow-md'>
+        <span className='absolute -left-4 top-1 w-8 h-8 rounded-full bg-zinc-800 flex items-center justify-center border border-zinc-600 shadow-md z-10'>
           <GraduationCap className='w-4 h-4 text-green-400' />
         </span>
 
-        <div className='bg-zinc-900/60 rounded-xl p-6 shadow-sm hover:shadow-md transition'>
+        <div className='backdrop-blur-md bg-white/5 border-t border-white/10 shadow-sm rounded-xl p-6'>
           <p className='text-xl font-semibold text-WhiteChalk'>Cyber Security Graduate</p>
           <p className='text-sm text-zinc-400'>University of Warwick</p>
           <p className='text-sm text-zinc-500 mb-4'>October 2021 – July 2024</p>

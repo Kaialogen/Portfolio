@@ -8,19 +8,18 @@ const Navbar: React.FC = () => {
   const links = [
     { name: 'CV', to: '/cv' },
     { name: 'Blog', to: '/blog' },
-    { name: 'Portfolio', to: '/portfolio' },
   ];
 
   return (
     <>
       {/* Top bar */}
-      <div className='w-full text-WhiteChalk flex justify-between items-center px-4 py-3 z-10 bg-slate-900/80 backdrop-blur-md border-b border-white/10 h-16'>
+      <div className='w-full text-WhiteChalk flex justify-between items-center px-4 py-3 z-10 bg-slate-900/80 backdrop-blur-md border-b border-white/10 h-16 relative'>
         <Link className='text-2xl font-semibold' to='/'>
           Kai Constantine
         </Link>
 
         {/* Desktop links (hidden on mobile) */}
-        <ul className='hidden md:flex gap-6 text-zinc-300'>
+        <ul className='hidden md:flex gap-6 text-zinc-300 items-center'>
           {links.map((link) =>
             link.name === 'CV' ? (
               <li key={link.to}>
@@ -38,13 +37,13 @@ const Navbar: React.FC = () => {
           )}
         </ul>
 
-        {/* Mobile menu toggle (hidden on desktop) */}
+        {/* Mobile menu toggle */}
         <button onClick={() => setIsOpen(!isOpen)} aria-label='Toggle Menu' className='md:hidden'>
           {isOpen ? <FaTimes className='w-6 h-6 text-white' /> : <FaBars className='w-6 h-6' />}
         </button>
       </div>
 
-      {/* Mobile dropdown (hidden on desktop) */}
+      {/* Mobile dropdown menu */}
       <nav
         className={`
           flex-col bg-zinc-900 text-white px-4 py-6 transition-all md:hidden
