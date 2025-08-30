@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Link } from 'react-router';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 type NavLinksProps = {
-  onToggle: (isOpen: boolean) => void;
+  readonly onToggle: (isOpen: boolean) => void;
 };
 
 export default function NavLinks({ onToggle }: NavLinksProps) {
@@ -18,6 +18,26 @@ export default function NavLinks({ onToggle }: NavLinksProps) {
   return (
     <>
       <ul className='hidden md:flex gap-6 text-zinc-300 items-center'>
+        <li>
+          <a
+            href='https://www.linkedin.com/in/kai-constantine'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='hover:text-white transition flex items-center gap-2'
+          >
+            <FaLinkedin className='w-5 h-5 text-WhiteChalk' />
+          </a>
+        </li>
+        <li>
+          <a
+            href='https://github.com/Kaialogen'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='hover:text-white transition flex items-center gap-2'
+          >
+            <FaGithub className='w-5 h-5 text-WhiteChalk' />
+          </a>
+        </li>
         <li key='/cv'>
           <a href='/CV.pdf' target='_blank' rel='noopener noreferrer' className='hover:text-white transition'>
             CV
