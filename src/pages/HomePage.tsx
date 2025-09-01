@@ -10,11 +10,11 @@ const Layout = () => {
   return (
     <main className='grid grid-cols-1 md:grid-cols-2 gap-4 p-4 min-h-screen flex-1 overflow-y-auto auto-rows-min max-w-7xl mx-auto'>
       <div className='col-span-1 md:col-span-2'>
-        <div className='grid grid-cols-1 sm:grid-cols-2 items-start gap-6'>
-          <div className='flex justify-center'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 items-center gap-6 grid-rows-1'>
+          <div className='justify-self-center'>
             <Avatar />
           </div>
-          <div className='flex flex-col justify-start'>
+          <div className='justify-self-center'>
             <Intro />
           </div>
         </div>

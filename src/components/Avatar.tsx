@@ -1,6 +1,6 @@
 const Avatar = () => (
-  <div className='flex items-center justify-center rounded-full bg-zinc-700 overflow-hidden'>
-    <img src='/images/Profile.png' alt='Kai Constantine' className='w-full h-full object-cover' />
+  <div className='w-72 h-full rounded-2xl overflow-hidden border-4 border-gray-700 shadow-lg'>
+    <img src='/images/Profile.jpeg' alt='Kai Constantine' className='w-full h-full object-cover' />
   </div>
 );
 
