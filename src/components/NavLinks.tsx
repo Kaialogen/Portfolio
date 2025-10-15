@@ -24,6 +24,7 @@ export default function NavLinks({ onToggle }: NavLinksProps) {
             target='_blank'
             rel='noopener noreferrer'
             className='hover:text-white transition flex items-center gap-2'
+            aria-label='Kai Constantine LinkedIn Page'
           >
             <FaLinkedin className='w-5 h-5 text-WhiteChalk' />
           </a>
@@ -34,6 +35,7 @@ export default function NavLinks({ onToggle }: NavLinksProps) {
             target='_blank'
             rel='noopener noreferrer'
             className='hover:text-white transition flex items-center gap-2'
+            aria-label='Kai Constantine Github Page'
           >
             <FaGithub className='w-5 h-5 text-WhiteChalk' />
           </a>
