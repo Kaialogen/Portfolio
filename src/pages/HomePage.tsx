@@ -14,7 +14,7 @@ const Layout = () => {
           <div className='justify-self-center'>
             <Avatar />
           </div>
-          <div className='justify-self-center'>
+          <div>
             <Intro />
           </div>
         </div>

@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 export default function WelcomeText() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // List of translations for "Welcome" in different languages
   const translations: string[] = [
     'Welcome',
     'Bienvenido',

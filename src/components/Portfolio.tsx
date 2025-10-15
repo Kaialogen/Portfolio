@@ -7,7 +7,7 @@ export default function Portfolio() {
         <div className='rounded-lg w-full border p-5 flex flex-col gap-5 border-WhiteChalk/40'>
           <div className='w-full h-40 mb-4 rounded-lg overflow-hidden'>
             <img
-              src='/images/Moviepad.jpeg'
+              src='/images/Moviepad.webp'
               alt='Project Thumbnail'
               className='w-full h-full object-cover'
               width={600}
@@ -75,7 +75,7 @@ export default function Portfolio() {
         <div className='rounded-lg w-full border p-5 flex flex-col gap-5 border-WhiteChalk/40'>
           <div className='w-full h-40 mb-4 rounded-lg overflow-hidden'>
             <img
-              src='/images/CarFinance.png'
+              src='/images/CarFinance.webp'
               alt='Project Thumbnail'
               className='w-full h-full object-cover'
               width={600}
