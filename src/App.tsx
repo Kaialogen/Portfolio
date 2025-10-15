@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainLayout from './MainLayout';
 import HomePage from './pages/HomePage';
 import BlogPage from './pages/BlogPage';
-import '@fontsource/inter';
 
 export default function App() {
   return (
