@@ -3,10 +3,10 @@ import Experience from '../components/Experience';
 import Contact from '../components/Contact';
 import Portfolio from '../components/Portfolio';
 import Avatar from '../components/Avatar';
-import { InfiniteCarousel } from '../components/InfiniteCarousel';
+import InfiniteCarousel from '../components/InfiniteCarousel';
 import Text from '../components/Text';
 
-const Layout = () => {
+export default function HomePage() {
   return (
     <main className='grid grid-cols-1 md:grid-cols-2 gap-4 p-4 min-h-screen flex-1 overflow-y-auto auto-rows-min max-w-7xl mx-auto'>
       <div className='col-span-1 md:col-span-2'>
@@ -36,6 +36,4 @@ const Layout = () => {
       </div>
     </main>
   );
-};
-
-export default Layout;
+}

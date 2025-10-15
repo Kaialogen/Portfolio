@@ -21,11 +21,11 @@ const icons = [
   <SiGo key='go' className='w-12 h-12 mx-4 inline' color='#00ADD8' />,
 ];
 
-export const InfiniteCarousel = () => {
+export default function InfiniteCarousel() {
   return (
     <div className='logos group relative overflow-hidden whitespace-nowrap py-10 [mask-image:_linear-gradient(to_right,_transparent_0,_white_128px,white_calc(100%-128px),_transparent_100%)]'>
       <div className='animate-slide-left-infinite inline-block w-max'>{icons}</div>
       <div className='animate-slide-left-infinite inline-block w-max'>{icons}</div>
     </div>
   );
-};
+}

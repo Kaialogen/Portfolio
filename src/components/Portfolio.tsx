@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom';
+
 export default function Portfolio() {
   return (
-    <section className='p-6 rounded-2xl bg-Cosmic-Black shadow-md h-full'>
-      <h1 className='text-3xl font-bold text-WhiteChalk text-center'>Portfolio</h1>
+    <section className='p-6 rounded-2xl shadow-md h-full'>
+      <h1 className='text-3xl font-bold text-center'>Portfolio</h1>
       <br />
       <div className='w-full grid grid-cols-2 gap-8 max-md:grid-cols-1'>
         <div className='rounded-lg w-full border p-5 flex flex-col gap-5 border-WhiteChalk/40'>
@@ -51,6 +53,12 @@ export default function Portfolio() {
               >
                 <p className='text-xs font-semibold'>PostgreSQL</p>
               </div>
+              <div
+                className='flex h-6 items-center justify-center gap-1.5 px-4 rounded-full
+                                    bg-blue-600/20 text-blue-300'
+              >
+                <p className='text-xs font-semibold'>TailwindCSS</p>
+              </div>
             </div>
             <div className='flex items-center gap-2 w-full mt-8'>
               <a
@@ -85,21 +93,21 @@ export default function Portfolio() {
           <div className='flex flex-col'>
             <h2 className='text-2xl font-semibold text-WhiteChalk'>Warwick Car Finance</h2>
             <p className='text-WhiteChalk opacity-50'>
-              A car finance website built with PHP, Bootstrap, and MySQL, featuring a user-friendly interface for car
-              finance calculations and comparisons.
+              A car finance website built with React, TypeScript, and PostgreSQL, featuring a user-friendly interface
+              for car finance calculations and comparisons.
             </p>
             <div className='grid grid-cols-4 max-sm:grid-cols-3 max-[500px]:grid-cols-2 items-center gap-2 mt-5'>
               <div
                 className='flex h-6 items-center justify-center gap-1.5 px-4 rounded-full
                                     bg-indigo-600/20 text-indigo-300'
               >
-                <p className='text-xs font-semibold'>PHP</p>
+                <p className='text-xs font-semibold'>React</p>
               </div>
               <div
                 className='flex h-6 items-center justify-center gap-1.5 px-4 rounded-full
                                     bg-blue-600/20 text-blue-300'
               >
-                <p className='text-xs font-semibold'>Bootstrap</p>
+                <p className='text-xs font-semibold'>TypeScript</p>
               </div>
               <div
                 className='flex h-6 items-center justify-center gap-1.5 px-4 rounded-full
@@ -111,13 +119,13 @@ export default function Portfolio() {
                 className='flex h-6 items-center justify-center gap-1.5 px-4 rounded-full
                                     bg-emerald-600/20 text-emerald-300'
               >
-                <p className='text-xs font-semibold'>MySQL</p>
+                <p className='text-xs font-semibold'>PostgreSQL</p>
               </div>
               <div
                 className='flex h-6 items-center justify-center gap-1.5 px-4 rounded-full
                                     bg-blue-600/20 text-blue-300'
               >
-                <p className='text-xs font-semibold'>CSS</p>
+                <p className='text-xs font-semibold'>TailwindCSS</p>
               </div>
             </div>
             <div className='flex items-center gap-2 w-full mt-8'>
@@ -196,6 +204,11 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
+      </div>
+      <div className='my-8 text-center'>
+        <Link to={'/'} className='text-xl underline hover:text-slate-300'>
+          More Projects
+        </Link>
       </div>
       <br />
     </section>

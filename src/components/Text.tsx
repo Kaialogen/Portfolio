@@ -12,7 +12,7 @@ export default function Text() {
     },
     {
       icon: <ShieldCheck className='w-5 h-5 text-red-400' />,
-      text: 'Security-First Approach: My cybersecurity background shapes how I design systems — from auth flows to data protection.',
+      text: 'Security-First Approach: My cybersecurity background shapes how I design systems; from auth flows to data protection.',
     },
     {
       icon: <Boxes className='w-5 h-5 text-purple-400' />,
@@ -20,7 +20,7 @@ export default function Text() {
     },
     {
       icon: <Rocket className='w-5 h-5 text-yellow-400' />,
-      text: 'Currently Exploring: Backend services in Go using the Gin framework.',
+      text: 'Currently Exploring: Java and Go',
     },
   ];
 
@@ -41,11 +41,11 @@ export default function Text() {
 
       {/* My Focus */}
       <section className='p-6 rounded-2xl bg-gradient-to-b from-zinc-900 to-Cosmic-Black shadow-lg h-full flex flex-col'>
-        <h1 className='text-3xl font-bold text-WhiteChalk text-center mb-6'>My Focus</h1>
+        <h1 className='text-3xl font-bold text-center mb-6'>My Focus</h1>
         <p className='text-zinc-300 leading-relaxed text-lg'>
-          I thrive in roles where I can own backend services, ensure they’re scalable, testable, and secure, and
-          collaborate across the stack when needed. I love shipping features end-to-end — but my strength is designing
-          and optimising the backend that makes everything work.
+          I thrive in roles where I can both own backend and frontend services, ensure they’re scalable, testable, and
+          secure, and collaborate across the stack when needed. I love shipping features end-to-end; but my strength is
+          designing and optimising the backend that makes everything work.
         </p>
       </section>
     </div>

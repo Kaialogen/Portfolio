@@ -26,7 +26,7 @@ export default function NavLinks({ onToggle }: NavLinksProps) {
             className='hover:text-white transition flex items-center gap-2'
             aria-label='Kai Constantine LinkedIn Page'
           >
-            <FaLinkedin className='w-5 h-5 text-WhiteChalk' />
+            <FaLinkedin className='w-10 h-10 text-WhiteChalk' />
           </a>
         </li>
         <li>
@@ -37,23 +37,23 @@ export default function NavLinks({ onToggle }: NavLinksProps) {
             className='hover:text-white transition flex items-center gap-2'
             aria-label='Kai Constantine Github Page'
           >
-            <FaGithub className='w-5 h-5 text-WhiteChalk' />
+            <FaGithub className='w-10 h-10 text-WhiteChalk' />
           </a>
         </li>
         <li key='/cv'>
-          <a href='/CV.pdf' target='_blank' rel='noopener noreferrer' className='hover:text-white transition'>
+          <a href='/CV.pdf' target='_blank' rel='noopener noreferrer' className='hover:text-white transition text-2xl'>
             CV
           </a>
         </li>
         <li key='/blog'>
-          <Link to='/blog' className='hover:text-white transition'>
+          <Link to='/blog' className='hover:text-white transition text-2xl'>
             Blog
           </Link>
         </li>
       </ul>
 
       <button onClick={toggleMenu} aria-label='Toggle Menu' className='md:hidden'>
-        {isOpen ? <FaTimes className='w-6 h-6 text-white' /> : <FaBars className='w-6 h-6 text-white' />}
+        {isOpen ? <FaTimes className='w-10 h-10 text-white' /> : <FaBars className='w-6 h-6 text-white' />}
       </button>
     </>
   );
