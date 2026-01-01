@@ -8,7 +8,7 @@ export default function Navbar() {
 
   return (
     <div className='w-full sticky top-0 z-1000'>
-      <div className='relative flex justify-between items-center px-4 py-3 bg-Cosmic-Black border-b border-white/50 h-20'>
+      <div className='relative flex justify-between items-center px-4 py-3 bg-Cosmic-Black h-20'>
         <Link className='text-3xl font-semibold' to='/'>
           Kai Constantine
         </Link>
