@@ -6,12 +6,18 @@ export default function Intro() {
       <section className='p-6 rounded-2xl bg-Cosmic-Black shadow-md'>
         <WelcomeText />
       </section>
-      <span className='text-center text-3xl'>Full-Stack Developer</span>
-      <p className='text-sm md:text-lg text-center'>
-        Hi, I’m Kai, a Cyber Security graduate turned full-stack web developer. I build fast, secure, and scalable
-        applications.
+      <span className='text-center text-2xl'>Backend & Systems Engineer</span>
+      <p className='text-sm'>
+        Hi, I’m Kai, a backend-focused software engineer with a cybersecurity background, targeting fintech and trading
+        system roles.
       </p>
-      <p className='text-sm md:text-lg text-center'>Based in the UK 🇬🇧</p>
+      <p className='text-sm'>
+        I am experienced in Python and Go for building scalable, data-driven services, APIs, and backend infrastructure.
+      </p>
+      <p className='text-sm'>
+        I have a strong interest in trading systems, market data processing, and performance-critical software.
+      </p>
+      <p className='text-sm'>Based in the UK 🇬🇧</p>
     </div>
   );
 }

@@ -17,7 +17,7 @@ export default function Footer() {
     second: '2-digit',
   });
   return (
-    <footer className='backdrop-blur-md bg-white/5 border-t border-white/10 shadow-lg'>
+    <footer className='backdrop-blur-md bg-white/5 border-t border-white/10 shadow-lg text-sm'>
       <div className='max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-300'>
         <div className='text-center lg:text-left'>
           © {new Date().getFullYear()} Kai Constantine. All rights reserved.

@@ -3,7 +3,7 @@ import { Briefcase, GraduationCap } from 'lucide-react';
 export default function Experience() {
   return (
     <section className='p-8 rounded-2xl shadow-lg h-full'>
-      <h1 className='text-3xl font-bold text-center mb-10'>Work Experience</h1>
+      <h1 className='text-2xl font-bold text-center mb-10'>Work Experience</h1>
 
       <div className='relative border-l border-zinc-700 pl-8 space-y-12'>
         <div className='relative'>
@@ -15,7 +15,7 @@ export default function Experience() {
             <p className='text-xl font-semibold'>Summer Internship</p>
             <p className='text-sm text-zinc-400'>Forvis Mazars LLP</p>
             <p className='text-sm text-zinc-500 mb-4'>July 2023 - August 2023</p>
-            <p className='text-zinc-300 leading-relaxed'>
+            <p className='text-zinc-300 leading-relaxed text-sm'>
               Internship in cyber attack and defence. Focused on projects including C2 infrastructure, malware EDR
               evasion techniques, and IoT penetration testing.
             </p>
@@ -31,7 +31,7 @@ export default function Experience() {
             <p className='text-xl font-semibold'>Cyber Security Graduate</p>
             <p className='text-sm text-zinc-400'>University of Warwick</p>
             <p className='text-sm text-zinc-500 mb-4'>October 2021 – July 2024</p>
-            <p className='text-zinc-300 leading-relaxed'>
+            <p className='text-zinc-300 leading-relaxed text-sm'>
               Graduated with Upper Second Class Honours. Focused on the intersection of software engineering and
               security, with modules in Data Structures & Algorithms, Secure Systems Implementation, and Networks &
               Cyber Defence. Gained experience applying secure coding practices to web applications, APIs, and backend
