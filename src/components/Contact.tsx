@@ -2,8 +2,8 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 export default function Contact() {
   return (
-    <section className='p-6 rounded-2xl shadow-md h-full'>
-      <h1 className='text-2xl font-bold text-center'>Contact</h1>
+    <section className='pt-6 pb-6 rounded-2xl shadow-md h-full'>
+      <h2 className='text-2xl'>Contact</h2>
       <br />
       <div className='mt-6 flex justify-center items-center'>
         <div className='flex items-center justify-between w-72'>
@@ -11,7 +11,7 @@ export default function Contact() {
             href='https://www.linkedin.com/in/kai-constantine'
             target='_blank'
             rel='noopener noreferrer'
-            className='flex flex-col items-center text-zinc-300 hover:text-zinc-100'
+            className='flex flex-col items-center text-zinc-300 hover:text-zinc-100 text-sm'
           >
             <FaLinkedin className='w-12 h-12 text-WhiteChalk mt-4' />
             LinkedIn
@@ -20,7 +20,7 @@ export default function Contact() {
             href='https://github.com/Kaialogen'
             target='_blank'
             rel='noopener noreferrer'
-            className='flex flex-col items-center text-zinc-300 hover:text-zinc-100'
+            className='flex flex-col items-center text-zinc-300 hover:text-zinc-100 text-sm'
           >
             <FaGithub className='w-12 h-12 text-WhiteChalk mt-4' />
             GitHub

@@ -5,6 +5,10 @@ html {
   scroll-behavior: smooth;
 }
 
+h2 {
+  font-family: 'Instrument Serif', sans-serif;
+}
+
 @theme {
   --color-Cosmic-Black: #0a0d0f;
   --color-WhiteChalk: #f6f4f1;

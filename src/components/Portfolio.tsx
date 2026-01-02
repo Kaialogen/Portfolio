@@ -2,8 +2,8 @@ import { Link } from 'react-router';
 
 export default function Portfolio() {
   return (
-    <section className='rounded-2xl shadow-md h-full'>
-      <h1 className='text-2xl font-bold text-center border-b-[1px] border-[#e1e3e6] pb-2.5'>Portfolio</h1>
+    <section>
+      <h2 className='text-2xl border-b-[1px] border-[#e1e3e6] pb-2.5'>Portfolio</h2>
       <br />
       <ul>
         <li>

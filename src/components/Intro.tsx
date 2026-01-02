@@ -6,7 +6,7 @@ export default function Intro() {
       <section className='p-6 rounded-2xl bg-Cosmic-Black shadow-md'>
         <WelcomeText />
       </section>
-      <span className='text-center text-2xl'>Backend & Systems Engineer</span>
+      <h2 className='text-center text-2xl'>Backend & Systems Engineer</h2>
       <p className='text-sm'>
         Hi, I’m Kai, a backend-focused software engineer with a cybersecurity background, targeting fintech and trading
         system roles.

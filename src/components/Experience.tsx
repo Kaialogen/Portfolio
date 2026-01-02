@@ -2,8 +2,8 @@ import { Briefcase, GraduationCap } from 'lucide-react';
 
 export default function Experience() {
   return (
-    <section className='p-8 rounded-2xl shadow-lg h-full'>
-      <h1 className='text-2xl font-bold text-center mb-10'>Work Experience</h1>
+    <section className='rounded-2xl shadow-lg h-full'>
+      <h2 className='text-2xl mb-10'>Work Experience</h2>
 
       <div className='relative border-l border-zinc-700 pl-8 space-y-12'>
         <div className='relative'>
@@ -12,7 +12,7 @@ export default function Experience() {
           </span>
 
           <div className='backdrop-blur-md bg-white/5 border-t border-white/10 shadow-sm rounded-xl p-6'>
-            <p className='text-xl font-semibold'>Summer Internship</p>
+            <p className='text-lg font-semibold'>Summer Internship</p>
             <p className='text-sm text-zinc-400'>Forvis Mazars LLP</p>
             <p className='text-sm text-zinc-500 mb-4'>July 2023 - August 2023</p>
             <p className='text-zinc-300 leading-relaxed text-sm'>
@@ -28,7 +28,7 @@ export default function Experience() {
           </span>
 
           <div className='backdrop-blur-md bg-white/5 border-t border-white/10 shadow-sm rounded-xl p-6'>
-            <p className='text-xl font-semibold'>Cyber Security Graduate</p>
+            <p className='text-lg font-semibold'>Cyber Security Graduate</p>
             <p className='text-sm text-zinc-400'>University of Warwick</p>
             <p className='text-sm text-zinc-500 mb-4'>October 2021 – July 2024</p>
             <p className='text-zinc-300 leading-relaxed text-sm'>
