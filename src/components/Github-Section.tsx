@@ -29,7 +29,14 @@ export default function GithubSection() {
         </div>
       </div>
       <div className='w-full overflow-x-auto'>
-        <GitHubCalendar username='Kaialogen' blockSize={11} blockMargin={3} fontSize={12} maxLevel={4} colorScheme='dark' />
+        <GitHubCalendar
+          username='Kaialogen'
+          blockSize={11}
+          blockMargin={3}
+          fontSize={12}
+          maxLevel={4}
+          colorScheme='dark'
+        />
       </div>
     </section>
   );

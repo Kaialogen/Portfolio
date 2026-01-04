@@ -5,6 +5,7 @@ import Portfolio from '../components/Portfolio';
 import Avatar from '../components/Avatar';
 import TechStackSelection from '../components/Tech-stack-section';
 import GithubSection from '../components/Github-Section';
+import Footer from '../components/Footer';
 
 export default function HomePage() {
   return (
@@ -33,6 +34,9 @@ export default function HomePage() {
       </div>
       <div className='col-span-1 md:col-span-2'>
         <Contact />
+      </div>
+      <div className='col-span-1 md:col-span-2'>
+        <Footer />
       </div>
     </main>
   );

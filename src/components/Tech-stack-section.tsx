@@ -1,6 +1,6 @@
 export default function TechStackSection() {
   return (
-    <div className='mb-[30px] pt-[30px] border-t-[1px] border-[#e1e3e6]'>
+    <div className='mb-[30px] pt-[30px] border-t-[1px] border-neutral-800'>
       <div className='pb-5 flex flex-wrap gap-[15px] text-sm'>
         <span className='flex items-center gap-1'>
           <svg
@@ -107,7 +107,7 @@ export default function TechStackSection() {
         <strong>Languages:</strong> Go, Python, SQL, JavaScript, TypeScript
       </p>
       <p className='text-sm'>
-        <strong>Tools & Platforms:</strong> AWS, Azure, Docker, Kubernetes, gRPC, PostgreSQL, Redis
+        <strong>Tools & Platforms:</strong> AWS, Docker, Kubernetes, gRPC, PostgreSQL, Redis
       </p>
     </div>
   );
