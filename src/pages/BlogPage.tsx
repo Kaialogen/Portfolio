@@ -7,7 +7,9 @@ export default function BlogPage() {
         <h2 className='text-2xl text-center'>Blog Posts</h2>
       </div>
       <div className='col-span-1 md:col-span-2'>
-        <p className='text-sm border-b-[1px] border-neutral-800 pb-3.5'>My collection of blog posts.</p>
+        <p className='text-sm border-b-[1px] border-neutral-800 pb-3.5'>
+          My collection of blog posts.
+        </p>
       </div>
       <div className='col-span-1 md:col-span-2'>
         <ul>

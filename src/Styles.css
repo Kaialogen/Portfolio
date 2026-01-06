@@ -1,12 +1,12 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 html {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
 }
 
 h2 {
-  font-family: 'Instrument Serif', sans-serif;
+  font-family: "Instrument Serif", sans-serif;
 }
 
 @theme {

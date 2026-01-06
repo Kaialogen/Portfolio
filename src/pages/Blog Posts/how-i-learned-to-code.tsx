@@ -18,14 +18,21 @@ export default function HowILearnedToCode() {
           back
         </a>
         <h2 className='text-2xl'>How I learned to Code</h2>
-        <p className='text-neutral-400 text-sm mb-6'>Kai Constantine - January 6, 2026 - 5 min read</p>
+        <p className='text-neutral-400 text-sm mb-6'>
+          Kai Constantine - January 6, 2026 - 5 min read
+        </p>
         <hr className=''></hr>
         <section>
-          <p className='my-4 text-neutral-400 italic text-sm'>Lessons that taught me to code from start to end</p>
+          <p className='my-4 text-neutral-400 italic text-sm'>
+            Lessons that taught me to code from start to end
+          </p>
           <ul className='text-sm list-disc pl-5 space-y-1'>
             <li>
               2021 - Built a{' '}
-              <a href='https://github.com/Kaialogen/Hurst-Chat' className='underline hover:text-slate-300'>
+              <a
+                href='https://github.com/Kaialogen/Hurst-Chat'
+                className='underline hover:text-slate-300'
+              >
                 social media website
               </a>{' '}
               for my A-Level Computer Science
@@ -37,7 +44,10 @@ export default function HowILearnedToCode() {
                 <li>Learned basic programming in C</li>
                 <li>
                   Built a{' '}
-                  <a href='https://github.com/Kaialogen/Enchiridion' className='underline hover:text-slate-300'>
+                  <a
+                    href='https://github.com/Kaialogen/Enchiridion'
+                    className='underline hover:text-slate-300'
+                  >
                     dungeon crawler game
                   </a>{' '}
                   in C
@@ -49,14 +59,20 @@ export default function HowILearnedToCode() {
               <ul className='text-sm list-disc pl-5 mt-2 space-y-1'>
                 <li>
                   Built a{' '}
-                  <a href='https://github.com/Kaialogen/Movie-Pad' className='underline hover:text-slate-300'>
+                  <a
+                    href='https://github.com/Kaialogen/Movie-Pad'
+                    className='underline hover:text-slate-300'
+                  >
                     Movie Rental
                   </a>{' '}
                   website
                 </li>
                 <li>
                   Built a{' '}
-                  <a href='https://github.com/Kaialogen/car_rental' className='underline hover:text-slate-300'>
+                  <a
+                    href='https://github.com/Kaialogen/car_rental'
+                    className='underline hover:text-slate-300'
+                  >
                     Car Finance
                   </a>{' '}
                   website
@@ -68,7 +84,10 @@ export default function HowILearnedToCode() {
               <ul className='text-sm list-disc pl-5 mt-2 space-y-1'>
                 <li>
                   Built a{' '}
-                  <a href='https://github.com/Kaialogen/Traffic-Analysis-ML' className='underline hover:text-slate-300'>
+                  <a
+                    href='https://github.com/Kaialogen/Traffic-Analysis-ML'
+                    className='underline hover:text-slate-300'
+                  >
                     machine learning model
                   </a>{' '}
                   for malicious network monitoring
@@ -77,7 +96,10 @@ export default function HowILearnedToCode() {
             </li>
             <li>
               2025 - Built this{' '}
-              <a href='https://github.com/Kaialogen/Portfolio' className='underline hover:text-slate-300'>
+              <a
+                href='https://github.com/Kaialogen/Portfolio'
+                className='underline hover:text-slate-300'
+              >
                 portfolio
               </a>{' '}
               website

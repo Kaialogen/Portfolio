@@ -30,7 +30,10 @@ export default function BlogPostsSection() {
         </li>
       </ul>
       <div className='my-4 text-center'>
-        <Link to={'/blog'} className='text-sm hover:underline text-neutral-300 hover:text-neutral-100'>
+        <Link
+          to={'/blog'}
+          className='text-sm hover:underline text-neutral-300 hover:text-neutral-100'
+        >
           More Posts
         </Link>
       </div>

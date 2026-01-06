@@ -35,7 +35,7 @@ export default function NavLinks({ onToggle }: NavLinksProps) {
         </li>
       </ul>
 
-      <button onClick={toggleMenu} aria-label='Toggle Menu' className='md:hidden'>
+      <button onClick={toggleMenu} aria-label='Toggle Menu' className='md:hidden' type='button'>
         {isOpen ? (
           <FaTimes className='w-6 h-6 text-white cursor-pointer' />
         ) : (

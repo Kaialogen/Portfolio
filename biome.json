@@ -1,0 +1,96 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.3.11/schema.json",
+
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+
+  "files": {
+    "ignoreUnknown": false
+  },
+
+  "css": {
+    "parser": {
+      "tailwindDirectives": true
+    }
+  },
+
+  "formatter": {
+    "enabled": true,
+    "formatWithErrors": false,
+    "useEditorconfig": true,
+
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineEnding": "lf",
+    "lineWidth": 100,
+
+    "bracketSpacing": true,
+    "bracketSameLine": false,
+    "attributePosition": "auto",
+    "expand": "auto",
+
+    "includes": ["**", "!dist", "!build", "!coverage"]
+  },
+
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
+    },
+    "includes": ["**", "!dist", "!build"]
+  },
+
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single",
+      "jsxQuoteStyle": "single",
+      "semicolons": "always",
+      "trailingCommas": "all",
+      "arrowParentheses": "always"
+    }
+  },
+
+  "overrides": [
+    {
+      "includes": ["**/*.{ts,tsx}"],
+      "linter": {
+        "rules": {
+          "style": {
+            "useConst": "error"
+          },
+          "suspicious": {
+            "noExplicitAny": "warn",
+            "noVar": "error"
+          },
+          "correctness": {
+            "noUnusedVariables": "warn"
+          }
+        }
+      }
+    },
+
+    {
+      "includes": ["**/*.{tsx,jsx}"],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "useHookAtTopLevel": "error",
+            "useExhaustiveDependencies": "warn"
+          }
+        }
+      }
+    }
+  ],
+
+  "assist": {
+    "enabled": true,
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
+    }
+  }
+}

@@ -6,7 +6,12 @@ export default function NavDropdown() {
     <nav className='absolute top-full left-0 w-full bg-Cosmic-Black border-t border-white/20 shadow-lg z-50 md:hidden'>
       <ul className='flex flex-col gap-4 py-4 text-center text-zinc-300'>
         <li key='/cv'>
-          <a href='/CV.pdf' target='_blank' rel='noopener noreferrer' className='hover:text-white transition'>
+          <a
+            href='/CV.pdf'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='hover:text-white transition'
+          >
             CV
           </a>
         </li>

@@ -16,8 +16,8 @@ export default function Experience() {
             <p className='text-sm text-zinc-400'>Forvis Mazars LLP</p>
             <p className='text-sm text-zinc-500 mb-4'>July 2023 - August 2023</p>
             <p className='text-zinc-300 leading-relaxed text-sm'>
-              Internship in cyber attack and defence. Focused on projects including C2 infrastructure, malware EDR
-              evasion techniques, and IoT penetration testing.
+              Internship in cyber attack and defence. Focused on projects including C2
+              infrastructure, malware EDR evasion techniques, and IoT penetration testing.
             </p>
           </div>
         </div>
@@ -32,10 +32,10 @@ export default function Experience() {
             <p className='text-sm text-zinc-400'>University of Warwick</p>
             <p className='text-sm text-zinc-500 mb-4'>October 2021 – July 2024</p>
             <p className='text-zinc-300 leading-relaxed text-sm'>
-              Graduated with Upper Second Class Honours. Focused on the intersection of software engineering and
-              security, with modules in Data Structures & Algorithms, Secure Systems Implementation, and Networks &
-              Cyber Defence. Gained experience applying secure coding practices to web applications, APIs, and backend
-              architectures.
+              Graduated with Upper Second Class Honours. Focused on the intersection of software
+              engineering and security, with modules in Data Structures & Algorithms, Secure Systems
+              Implementation, and Networks & Cyber Defence. Gained experience applying secure coding
+              practices to web applications, APIs, and backend architectures.
             </p>
           </div>
         </div>
