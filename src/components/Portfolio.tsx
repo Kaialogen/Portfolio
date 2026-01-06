@@ -4,7 +4,6 @@ export default function Portfolio() {
   return (
     <section>
       <h2 className='text-2xl'>Portfolio</h2>
-      <br />
       <ul>
         <li>
           <a
@@ -24,11 +23,10 @@ export default function Portfolio() {
         </li>
       </ul>
       <div className='my-4 text-center'>
-        <Link to={'/'} className='text-sm hover:underline hover:text-slate-300'>
+        <Link to={'/'} className='text-sm hover:underline text-neutral-300 hover:text-neutral-100'>
           More Projects
         </Link>
       </div>
-      <br />
     </section>
   );
 }
