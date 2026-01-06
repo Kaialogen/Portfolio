@@ -6,9 +6,12 @@ export default function BlogPostsSection() {
       <h2 className='text-2xl'>Blog Posts</h2>
       <ul>
         <li>
-          <a className='hover:underline hover:text-slate-300 cursor-pointer text-sm' href='#'>
-            Placeholder Text
-          </a>
+          <Link
+            to={'/blog/how-i-learned-to-code'}
+            className='hover:underline hover:text-slate-300 cursor-pointer text-sm'
+          >
+            How I Learned To Code
+          </Link>
         </li>
         <li>
           <a className='hover:underline hover:text-slate-300 cursor-pointer text-sm' href='#'>

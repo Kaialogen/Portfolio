@@ -6,11 +6,10 @@ import Avatar from '../components/Avatar';
 import TechStackSelection from '../components/Tech-stack-section';
 import GithubSection from '../components/Github-Section';
 import BlogPostsSection from '../components/Blog-Posts-Section';
-import Footer from '../components/Footer';
 
 export default function HomePage() {
   return (
-    <main className='grid grid-cols-1 md:grid-cols-2 gap-4 p-4 min-h-screen flex-1 overflow-y-auto auto-rows-min max-w-[800px] mx-auto'>
+    <main className='grid grid-cols-1 md:grid-cols-2 gap-4 p-4 auto-rows-min max-w-[800px] mx-auto'>
       <div className='col-span-1 md:col-span-2'>
         <div className='grid grid-cols-1 sm:grid-cols-2 items-center gap-6 grid-rows-1'>
           <div>
@@ -38,9 +37,6 @@ export default function HomePage() {
       </div>
       <div className='col-span-1 md:col-span-2'>
         <Contact />
-      </div>
-      <div className='col-span-1 md:col-span-2'>
-        <Footer />
       </div>
     </main>
   );
