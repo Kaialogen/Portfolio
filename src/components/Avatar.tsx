@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image from "../assets/Profile.jpeg";
+import image from "../assets/profile.jpeg";
 
 export default function Avatar() {
   return (

@@ -3,13 +3,13 @@ import Experience from "../components/Experience";
 import Contact from "../components/Contact";
 import Portfolio from "../components/Portfolio";
 import Avatar from "../components/Avatar";
-import TechStackSection from "../components/Tech-stack-section";
-import GithubSection from "../components/Github-Section";
-import BlogPostsSection from "../components/Blog-Posts-Section";
+import TechStackSection from "../components/TechStackSection";
+import GitHubSection from "../components/GitHubSection";
+import BlogPostsSection from "../components/BlogPostsSection";
 
 export default function HomePage() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 auto-rows-min max-w-[800px] mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 auto-rows-min max-w-[1000px] mx-auto">
       <div className="col-span-1 md:col-span-2">
         <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-6 grid-rows-1">
           <div>
@@ -30,7 +30,7 @@ export default function HomePage() {
         <BlogPostsSection />
       </div>
       <div className="col-span-1 md:col-span-2">
-        <GithubSection />
+        <GitHubSection />
       </div>
       <div className="col-span-1 md:col-span-2">
         <Experience />

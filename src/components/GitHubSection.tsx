@@ -2,7 +2,7 @@
 
 import { GitHubCalendar } from "react-github-calendar";
 
-export default function GithubSection() {
+export default function GitHubSection() {
   return (
     <section className="pb-2.5 mb-4">
       <div className="flex justify-between items-center mb-5">
