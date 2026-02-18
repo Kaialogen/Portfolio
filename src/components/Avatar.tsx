@@ -1,13 +1,14 @@
-import Image from "next/image";
-import image from "../assets/profile.jpeg";
+import Image from 'next/image';
 
 export default function Avatar() {
   return (
-    <div className="w-72 h-full rounded-2xl overflow-hidden border-4 border-Ash shadow-lg">
+    <div className='w-72 h-full rounded-2xl overflow-hidden border-4 border-Ash shadow-lg'>
       <Image
-        src={image}
-        alt="Kai Constantine"
-        className="w-full h-full object-cover"
+        src='/profile.jpeg'
+        alt='Kai Constantine'
+        className='w-full h-full object-cover'
+        width={288}
+        height={336}
         priority
       />
     </div>

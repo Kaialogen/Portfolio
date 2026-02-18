@@ -1,6 +1,6 @@
-import { useState } from "react";
-import Link from "next/link";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { useState } from 'react';
+import Link from 'next/link';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 type NavLinksProps = {
   readonly onToggle: (isOpen: boolean) => void;
@@ -17,37 +17,29 @@ export default function NavLinks({ onToggle }: NavLinksProps) {
 
   return (
     <>
-      <ul className="hidden md:flex gap-6 text-zinc-300 items-center">
-        <li key="/cv">
+      <ul className='hidden md:flex gap-6 text-zinc-300 items-center'>
+        <li key='/cv'>
           <a
-            href="/CV.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-white transition  text-[16px]"
+            href='/CV.pdf'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='hover:text-white transition  text-[16px]'
           >
             CV
           </a>
         </li>
-        <li key="/blog">
-          <Link
-            href="/blog"
-            className="hover:text-white transition text-[16px]"
-          >
+        <li key='/blog'>
+          <Link href='/blog' className='hover:text-white transition text-[16px]'>
             Blog
           </Link>
         </li>
       </ul>
 
-      <button
-        onClick={toggleMenu}
-        aria-label="Toggle Menu"
-        className="md:hidden"
-        type="button"
-      >
+      <button onClick={toggleMenu} aria-label='Toggle Menu' className='md:hidden' type='button'>
         {isOpen ? (
-          <FaTimes className="w-6 h-6 text-white cursor-pointer" />
+          <FaTimes className='w-6 h-6 text-white cursor-pointer' />
         ) : (
-          <FaBars className="w-6 h-6 text-white cursor-pointer" />
+          <FaBars className='w-6 h-6 text-white cursor-pointer' />
         )}
       </button>
     </>
