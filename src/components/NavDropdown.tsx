@@ -1,4 +1,4 @@
-import { Link } from 'react-router';
+import Link from 'next/link';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 export default function NavDropdown() {
@@ -16,7 +16,7 @@ export default function NavDropdown() {
           </a>
         </li>
         <li key='/blog'>
-          <Link to='/blog' className='hover:text-white transition'>
+          <Link href='/blog' className='hover:text-white transition'>
             Blog
           </Link>
         </li>

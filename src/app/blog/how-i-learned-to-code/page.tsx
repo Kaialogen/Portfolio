@@ -1,27 +1,29 @@
+import Link from 'next/link';
+
 export default function HowILearnedToCode() {
   return (
-    <main className='grid grid-cols-1 gap-4 p-4 auto-rows-min max-w-[800px] mx-auto'>
+    <div className='grid grid-cols-1 gap-4 p-4 auto-rows-min max-w-[800px] mx-auto w-full'>
       <article className='col-span-1 md:col-span-2'>
-        <a
+        <Link
           className='inline-flex items-center gap-2 text-stone-500 hover:text-stone-100 hover:bg-stone-800/80 transition-colors mb-4 text-sm px-2 py-1 -ml-2 rounded-md'
-          href='/'
+          href='/blog'
         >
           <svg width='16' height='16' viewBox='0 0 16 16' fill='none'>
             <path
               d='M10 12L6 8L10 4'
               stroke='currentColor'
-              stroke-width='1.5'
-              stroke-linecap='round'
-              stroke-linejoin='round'
-            ></path>
+              strokeWidth='1.5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
+            />
           </svg>
           back
-        </a>
+        </Link>
         <h2 className='text-2xl'>How I learned to Code</h2>
         <p className='text-neutral-400 text-sm mb-6'>
           Kai Constantine - January 6, 2026 - 5 min read
         </p>
-        <hr className=''></hr>
+        <hr />
         <section>
           <p className='my-4 text-neutral-400 italic text-sm'>
             Lessons that taught me to code from start to end
@@ -107,6 +109,6 @@ export default function HowILearnedToCode() {
           </ul>
         </section>
       </article>
-    </main>
+    </div>
   );
 }

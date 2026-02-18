@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router';
+import Link from 'next/link';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 type NavLinksProps = {
@@ -29,7 +29,7 @@ export default function NavLinks({ onToggle }: NavLinksProps) {
           </a>
         </li>
         <li key='/blog'>
-          <Link to='/blog' className='hover:text-white transition text-[16px]'>
+          <Link href='/blog' className='hover:text-white transition text-[16px]'>
             Blog
           </Link>
         </li>
