@@ -1,3 +1,3 @@
 # Portfolio Website
 
-This is my personal portfolio website built with React and Tailwind CSS.
+Personal portfolio website built with Next.js (App Router), React, TypeScript, and Tailwind CSS.

@@ -23,7 +23,7 @@ export default function Portfolio() {
         <li>
           <a
             className="hover:underline hover:text-slate-300 cursor-pointer text-sm"
-            href="hhttps://github.com/Kaialogen/duskhollow_rpg"
+            href="https://github.com/Kaialogen/duskhollow_rpg"
           >
             DuskHollow: A text-based rpg built in Python
           </a>

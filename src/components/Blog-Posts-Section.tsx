@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import Link from "next/link";
 
 export default function BlogPostsSection() {
   return (
@@ -7,7 +7,7 @@ export default function BlogPostsSection() {
       <ul>
         <li>
           <Link
-            to={"/blog/how-i-learned-to-code"}
+            href={"/blog/how-i-learned-to-code"}
             className="hover:underline hover:text-slate-300 cursor-pointer text-sm"
           >
             How I Learned To Code
@@ -16,7 +16,7 @@ export default function BlogPostsSection() {
       </ul>
       <div className="my-4 text-center">
         <Link
-          to={"/blog"}
+          href={"/blog"}
           className="text-sm hover:underline text-neutral-300 hover:text-neutral-100"
         >
           More Posts

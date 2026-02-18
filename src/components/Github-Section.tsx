@@ -1,3 +1,5 @@
+"use client";
+
 import { GitHubCalendar } from "react-github-calendar";
 
 export default function GithubSection() {
@@ -16,7 +18,7 @@ export default function GithubSection() {
             <svg
               stroke="currentColor"
               fill="currentColor"
-              stroke-width="0"
+              strokeWidth="0"
               viewBox="0 0 496 512"
               className="w-4 h-4"
               height="1em"
