@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function HowILearnedToCode() {
   return (
-    <div className='grid grid-cols-1 gap-4 p-4 auto-rows-min max-w-[800px] mx-auto w-full'>
+    <div className='grid grid-cols-1 gap-4 xl:gap-6 p-4 xl:p-6 auto-rows-min max-w-[800px] xl:max-w-[960px] mx-auto w-full'>
       <article className='col-span-1 md:col-span-2'>
         <Link
           className='inline-flex items-center gap-2 text-stone-500 hover:text-stone-100 hover:bg-stone-800/80 transition-colors mb-4 text-sm px-2 py-1 -ml-2 rounded-md'

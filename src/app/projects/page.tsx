@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function ProjectsPage() {
   return (
-    <div className="w-full max-w-[1000px] p-4">
+    <div className="w-full max-w-[1000px] xl:max-w-[1200px] p-4 xl:p-6">
       <header className="mb-6 border-b border-neutral-800 pb-4">
         <h1 className="text-3xl text-WhiteChalk">Projects</h1>
         <p className="mt-2 text-sm text-neutral-300">

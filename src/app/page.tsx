@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 auto-rows-min max-w-[1000px] mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 xl:gap-6 p-4 xl:p-6 auto-rows-min w-full max-w-[1000px] xl:max-w-[1200px] mx-auto">
       <div className="col-span-1 md:col-span-2">
         <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-6 grid-rows-1">
           <div>

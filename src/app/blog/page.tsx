@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function BlogPage() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 auto-rows-min overflow-y-auto max-w-[800px] md:mx-auto w-full">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 xl:gap-6 p-4 xl:p-6 auto-rows-min overflow-y-auto w-full max-w-[800px] xl:max-w-[960px] md:mx-auto">
       <div className="col-span-1 md:col-span-2">
         <h2 className="text-2xl text-center">Blog Posts</h2>
       </div>

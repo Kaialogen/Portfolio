@@ -24,7 +24,7 @@ export default function Portfolio() {
             >
               {project.title}
             </Link>
-            <span className="text-neutral-400"> - {project.summary}</span>
+            <span className="text-neutral-300"> - {project.summary}</span>
           </li>
         ))}
       </ul>

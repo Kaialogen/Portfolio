@@ -34,7 +34,7 @@ export default async function ProjectCaseStudyPage({ params }: ProjectPageProps)
   }
 
   return (
-    <article className="w-full max-w-[800px] p-4">
+    <article className="w-full max-w-[800px] xl:max-w-[960px] p-4 xl:p-6">
       <Link href="/projects" className="text-sm text-neutral-400 hover:text-neutral-100">
         ← Back to projects
       </Link>
