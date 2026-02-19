@@ -33,6 +33,11 @@ export default function NavLinks({ onToggle }: NavLinksProps) {
             Blog
           </Link>
         </li>
+        <li key='/projects'>
+          <Link href='/projects' className='hover:text-white transition text-[16px]'>
+            Projects
+          </Link>
+        </li>
       </ul>
 
       <button onClick={toggleMenu} aria-label='Toggle Menu' className='md:hidden' type='button'>

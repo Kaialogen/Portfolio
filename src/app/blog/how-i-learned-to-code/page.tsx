@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: "How I Learned To Code",
+  description: "A short timeline of experiences that shaped my software engineering journey.",
+};
 
 export default function HowILearnedToCode() {
   return (

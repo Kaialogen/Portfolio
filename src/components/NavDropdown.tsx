@@ -20,6 +20,11 @@ export default function NavDropdown() {
             Blog
           </Link>
         </li>
+        <li key='/projects'>
+          <Link href='/projects' className='hover:text-white transition'>
+            Projects
+          </Link>
+        </li>
       </ul>
       <ul className='flex justify-center gap-6 text-zinc-300 items-center my-4'>
         <li>
